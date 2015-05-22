@@ -1,7 +1,7 @@
 CC=clang
 CFLAGS=-lpcap
 OUTPUT=-o run-it
-.PHONY=clean
+.PHONY: clean
 
 all: the-actual-sniffing
 
